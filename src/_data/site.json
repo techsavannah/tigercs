@@ -5,6 +5,6 @@
     { "text": "Board", "url": "/board/" },
     { "text": "Blog", "url": "/blog/" },
     { "text": "Events", "url": "/events/" },
-    { "text": "Contact", "url": "/contact/" }
+    { "text": "Contact", "url": "mailto:board@tigercs.org" }
   ]
 }
