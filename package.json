@@ -10,7 +10,8 @@
     "dev:css": "tailwindcss -i ./src/css/tailwind.css -o ./_site/css/style.css --watch",
     "build": "npm-run-all build:css build:eleventy",
     "build:eleventy": "eleventy",
-    "build:css": "tailwindcss -i ./src/css/tailwind.css -o ./_site/css/style.css --minify"
+    "build:css": "tailwindcss -i ./src/css/tailwind.css -o ./_site/css/style.css --minify",
+    "new-post": "node scripts/new-post.mjs"
   },
   "packageManager": "yarn@4.18.0",
   "devDependencies": {
