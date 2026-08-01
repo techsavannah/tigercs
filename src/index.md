@@ -2,6 +2,7 @@
 layout: base.njk
 title: Home
 ---
+
 <div class="hero bg-base-200 rounded-box">
   <div class="hero-content text-center py-16">
     <div class="max-w-md">
