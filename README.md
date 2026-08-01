@@ -37,6 +37,10 @@ Content pages are plain Markdown, not Nunjucks — contributors adding or editin
 
 Nav links live in `src/_data/site.json`.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## See also
 
 - [Eleventy docs](https://www.11ty.dev/docs/)
