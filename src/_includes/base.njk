@@ -8,10 +8,22 @@
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="navbar bg-base-100/80 backdrop-blur shadow-sm px-4">
-      <div class="flex-1">
+      <div class="navbar-start">
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-square">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            {%- for item in site.nav %}
+            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+            {%- endfor %}
+          </ul>
+        </div>
         <a href="/" class="btn btn-ghost text-xl">{{ site.title }}</a>
       </div>
-      <nav class="flex-none">
+      <nav class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
           {%- for item in site.nav %}
           <li><a href="{{ item.url }}">{{ item.text }}</a></li>
