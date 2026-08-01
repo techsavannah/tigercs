@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="ssu">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body class="min-h-screen flex flex-col">
-    <header class="navbar bg-base-100 shadow-sm px-4">
+    <header class="navbar bg-base-100/80 backdrop-blur shadow-sm px-4">
       <div class="flex-1">
         <a href="/" class="btn btn-ghost text-xl">{{ site.title }}</a>
       </div>
@@ -20,11 +20,11 @@
       </nav>
     </header>
 
-    <main class="flex-1 container mx-auto px-4 py-8">
+    <main class="flex-1 container mx-auto px-4 py-8 bg-base-100 rounded-box shadow-sm my-4">
       {{ content | safe }}
     </main>
 
-    <footer class="footer footer-center bg-base-200 text-base-content p-4">
+    <footer class="footer footer-center bg-base-200/80 backdrop-blur text-base-content p-4">
       <p>&copy; {% year %} {{ site.title }}</p>
     </footer>
   </body>
