@@ -1,5 +1,7 @@
 {
   "title": "SSU CS Advisory Board",
+  "url": "https://tigercs.org",
+  "description": "News and updates from the Savannah State University CS Industry Advisory Board.",
   "nav": [
     { "text": "Home", "url": "/" },
     { "text": "Board", "url": "/board/" },

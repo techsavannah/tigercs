@@ -1,8 +1,10 @@
 import MarkdownIt from "markdown-it";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 
 const md = new MarkdownIt();
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
