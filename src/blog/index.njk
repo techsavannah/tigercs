@@ -4,7 +4,10 @@ title: Blog
 permalink: /blog/
 eleventyExcludeFromCollections: true
 ---
-<h1 class="text-3xl font-bold mb-6">Blog</h1>
+<div class="flex items-center justify-between mb-6">
+  <h1 class="text-3xl font-bold">Blog</h1>
+  <a href="/feed.xml" class="btn btn-ghost btn-sm">RSS</a>
+</div>
 <ul class="space-y-4">
   {%- for post in collections.posts | reverse %}
   <li>

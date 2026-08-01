@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div class="hero bg-base-200 rounded-box mb-6">
-  <div class="hero-content py-16">
+  <div class="hero-content flex-col lg:flex-row py-16">
+    <img src="/images/index/ssu_banner.jpg" alt="Savannah State University banner on a light pole" class="max-w-[250px] rounded-box shadow-2xl" />
     <div class="max-w-md">
       <h1 class="text-4xl mb-6 text-center font-bold">SSU CS Industry Advisory Board</h1>
       <p class="mb-4">
@@ -18,7 +19,8 @@ title: Home
 </div>
 
 <div class="hero bg-base-200 rounded-box">
-  <div class="hero-content py-16">
+  <div class="hero-content flex-col lg:flex-row-reverse py-16">
+    <img src="/images/index/ssu_tiger.jpg" alt="The Savannah State tiger statue looking at you face to face." class="max-w-[250px] rounded-box shadow-2xl" />
     <div class="max-w-md">
       <h1 class="text-4xl mb-6 text-center font-bold">CS Industry Takeover Day 2026!</h1>
       <p class="mb-4">

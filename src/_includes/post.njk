@@ -3,6 +3,6 @@ layout: base.njk
 ---
 <article class="prose max-w-none">
   <h1>{{ title }}</h1>
-  <p class="text-sm opacity-60">{{ page.date | readableDate }}</p>
+  <p class="text-sm opacity-60">{{ page.date | readableDate }}{% if author %} &middot; {{ author }}{% endif %}</p>
   {{ content | safe }}
 </article>
