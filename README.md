@@ -31,7 +31,7 @@ There's no test suite or linter configured. Verify changes by running `yarn buil
 
 Content pages are plain Markdown, not Nunjucks — contributors adding or editing pages/posts/events shouldn't need to touch template code.
 
-- **Blog post**: drop a new `.md` file in `src/blog/` with `title`/`date` front matter. Layout, tags, and the `/blog/{slug}/` permalink are wired up automatically.
+- **Blog post**: run `yarn new-post "Post Title" ["Author Name"]` to scaffold a new `.md` file in `src/blog/` with `title`/`date`/`author` front matter, or drop one in by hand. Layout, tags, and the `/blog/{slug}/` permalink are wired up automatically.
 - **Event**: add a `.md` file in `src/events/` and link it from `src/events/index.md`.
 - **Top-level page**: add a flat `.md` file in `src/`, following the pattern in `src/contact.md` (`layout: base.njk`).
 
