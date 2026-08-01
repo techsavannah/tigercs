@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: content.njk
 title: CS Industry Takeover Day 2026
 ---
 

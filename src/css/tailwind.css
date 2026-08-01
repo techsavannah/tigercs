@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "@tailwindcss/typography";
 @plugin "daisyui/theme" {
   name: "ssu";
   default: true;
@@ -38,6 +39,31 @@
 
   --depth: 1;
   --noise: 0;
+}
+
+.prose {
+    --tw-prose-body: var(--color-base-content);
+    --tw-prose-headings: var(--color-base-content);
+    --tw-prose-links: var(--color-primary);
+    --tw-prose-bold: var(--color-base-content);
+    --tw-prose-bullets: var(--color-base-content);
+    --tw-prose-hr: var(--color-base-300);
+    --tw-prose-quotes: var(--color-base-content);
+    --tw-prose-quote-borders: var(--color-base-300);
+    --tw-prose-captions: var(--color-base-content);
+    --tw-prose-code: var(--color-base-content);
+    --tw-prose-th-borders: var(--color-base-300);
+    --tw-prose-td-borders: var(--color-base-300);
+}
+
+main a:not(.btn) {
+    color: var(--color-primary);
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+}
+
+main a:not(.btn):hover {
+    color: color-mix(in oklch, var(--color-primary) 80%, black);
 }
 
 body {
