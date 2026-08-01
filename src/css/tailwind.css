@@ -1,2 +1,71 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "ssu";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  --color-base-100: #ffffff;
+  --color-base-200: #f2f2f2;
+  --color-base-300: #e5e5e5;
+  --color-base-content: #1a1a1a;
+  --color-primary: #002294;
+  --color-primary-content: #ffffff;
+  --color-secondary: #f24d17;
+  --color-secondary-content: #ffffff;
+  --color-accent: #0da6d9;
+  --color-accent-content: #ffffff;
+  --color-neutral: #001233;
+  --color-neutral-content: #ffffff;
+  --color-info: #0ea5e9;
+  --color-info-content: #ffffff;
+  --color-success: #16a34a;
+  --color-success-content: #ffffff;
+  --color-warning: #f2b705;
+  --color-warning-content: #1a1a1a;
+  --color-error: #dc2626;
+  --color-error-content: #ffffff;
+
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+
+  --depth: 1;
+  --noise: 0;
+}
+
+body {
+    background-color: #966886;
+    background-image:
+    radial-gradient(ellipse 25% 25% at 41.9608% 95.6863%, rgba(0, 78, 193, 0.6) 0%, rgba(0, 78, 193, 0) 100%),
+    radial-gradient(ellipse 22% 22% at 71.6535% 15.748%, rgba(255, 133, 109, 0.6) 0%, rgba(255, 133, 109, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 70.8661% 29.1339%, rgba(214, 120, 117, 0.6) 0%, rgba(214, 120, 117, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 12.5984% 100%, rgba(86, 155, 252, 0.6) 0%, rgba(86, 155, 252, 0) 100%),
+    radial-gradient(ellipse 28% 28% at 99.9059% 90.7413%, rgba(0, 39, 153, 0.66) 0%, rgba(0, 39, 153, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 22.2222% 100%, rgba(55, 131, 234, 0.6) 0%, rgba(55, 131, 234, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 92.0635% 36.5079%, rgba(180, 127, 146, 0.6) 0%, rgba(180, 127, 146, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 0% 90.4762%, rgba(109, 165, 253, 0.6) 0%, rgba(109, 165, 253, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 41.2698% 100%, rgba(0, 80, 195, 0.6) 0%, rgba(0, 80, 195, 0) 100%),
+    radial-gradient(ellipse 35.1232% 35.1232% at 75.1377% 93.5822%, rgba(0, 43, 161, 0.72) 0%, rgba(0, 43, 161, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 93.5484% 87.0968%, rgba(3, 44, 155, 0.6) 0%, rgba(3, 44, 155, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 22.5806% 0%, rgba(255, 74, 2, 0.6) 0%, rgba(255, 74, 2, 0) 100%),
+    radial-gradient(ellipse 28% 28% at 27.3978% 97.5484%, rgba(34, 114, 222, 0.66) 0%, rgba(34, 114, 222, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 51.6129% 90.3226%, rgba(0, 64, 177, 0.68) 0%, rgba(0, 64, 177, 0) 100%),
+    radial-gradient(ellipse 25% 25% at 6.4516% 16.129%, rgba(252, 69, 0, 0.6) 0%, rgba(252, 69, 0, 0) 100%),
+    radial-gradient(ellipse 28% 28% at 5.0792% 80.3211%, rgba(122, 156, 228, 0.66) 0%, rgba(122, 156, 228, 0) 100%),
+    radial-gradient(ellipse 35.1232% 35.1232% at 94.8044% 14.5793%, rgba(255, 169, 149, 1) 0%, rgba(255, 169, 149, 0) 100%),
+    radial-gradient(ellipse 35.1232% 23.9355% at 6.2267% 98.2532%, rgba(111, 177, 255, 0.94) 0%, rgba(111, 177, 255, 0) 100%),
+    radial-gradient(ellipse 101.2% 89.056% at 100% 100%, rgba(0, 30, 154, 0.68) 0%, rgba(0, 30, 154, 0) 100%),
+    radial-gradient(ellipse 89.056% 78.3693% at 60.103% 100%, rgba(0, 74, 195, 0.78) 0%, rgba(0, 74, 195, 0) 100%),
+    radial-gradient(ellipse 89.056% 101.2% at 100% 0%, rgba(255, 172, 145, 0.68) 0%, rgba(255, 172, 145, 0) 100%),
+    radial-gradient(ellipse 78.3693% 78.3693% at 0% 100%, rgba(137, 199, 255, 0.76) 0%, rgba(137, 199, 255, 0) 100%),
+    radial-gradient(ellipse 101.2% 101.2% at -2.3059% -3.5765%, rgba(255, 53, 0, 0.84) 0%, rgba(255, 53, 0, 0) 100%),
+    radial-gradient(ellipse 178.349% 86.5097% at 19.8419% 3.8327%, rgba(255, 96, 35, 1) 0%, rgba(255, 96, 35, 0) 100%);
+    background-blend-mode: normal;
+}
