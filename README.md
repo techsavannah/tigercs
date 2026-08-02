@@ -18,6 +18,27 @@ Package manager is **Yarn** (classic node-modules linker). Use `yarn`, not `npm`
 yarn install
 ```
 
+### Using Open Source Coding Agents and Models
+
+You'll notice we have a CLAUDE.md in the repo, but we _also_ have an AGENTS.md and a .agents directory!  So, you can use pretty much _any_ coding agent you want, and you're not stuck with paying Anthropic or OpenAI for the privilege of using their models.  
+
+In August 2026, here's what we think is worth trying out that's either free or _really_ cheap:
+
+#### Coding Agents
+
+* [OpenCode](https://opencode.ai) - If you're coming from Claude Code, this will be the most comfortable for you. 
+* [Oh My Pi](https://omp.sh) - Based on the very barebones but _very_ configurable [pi](https://pi.dev), oh-my-pi is pi with fireworks. It comes with all the bells and whistles and is great to work with. It's currently my (hi, it's Kevin) daily driver at work.
+
+#### Models
+
+It's worth creating an OpenRouter account just to play with new models.  They offer a _lot_ of free models to play with, and if you're working on open source projects like this one, it's _fine_ to use the free models. If you're working on closed source, use a paid model that doesn't train on your prompts (there's a setting in the Privacy section of OpenRouter where you can disable showing models that store or train on prompts).  For this project, it's fine to use free models!
+
+* [Laguna S 2.1](https://openrouter.ai/poolside/laguna-s-2.1:free) (Free) 
+* [Laguna XS 2.1](https://openrouter.ai/poolside/laguna-xs-2.1:free) (Free)
+* [North Mini Code](https://openrouter.ai/cohere/north-mini-code:free)
+
+Poolside's Laguna series is both fast and _really_ good. I've been very impressed with the results, especially in Oh My Pi with advisor mode turned on.  North Mini Code is worth playing with, but I prefer Laguna.
+
 ## Commands
 
 ```
