@@ -914,10 +914,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^5.7.9":
-  version: 5.7.9
-  resolution: "daisyui@npm:5.7.9"
-  checksum: 10c0/085d0b697a4139383f731ecce0d46861b374114732969fa8eee0f73e695bafb8f6ee1138bdc9cf427c1a883bbee6fa2b48e5a83073af5a85d6637c014fb5b212
+"daisyui@npm:^5.7.16":
+  version: 5.7.16
+  resolution: "daisyui@npm:5.7.16"
+  checksum: 10c0/45ab84ea1d08ea42124e7e218a409776fdf046b1dab54655a2fa517a33682e5613bce3eb40e70ccaf151744f6640d50dbea883f71edc08cbcc255610f6b805b1
   languageName: node
   linkType: hard
 
@@ -3221,7 +3221,7 @@ __metadata:
     "@11ty/eleventy-plugin-rss": "npm:^3.0.0"
     "@tailwindcss/cli": "npm:^4.3.3"
     "@tailwindcss/typography": "npm:^0.5.20"
-    daisyui: "npm:^5.7.9"
+    daisyui: "npm:^5.7.16"
     markdown-it: "npm:^15.0.0"
     npm-run-all: "npm:^4.1.5"
     tailwindcss: "npm:^4.3.3"
