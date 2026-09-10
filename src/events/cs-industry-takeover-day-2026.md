@@ -29,4 +29,4 @@ We're working with local and regional employers on a career fair that will run i
 
 Right now, the plan is to start the career fair at 10AM and go until around 4.  
 
-If you're affiliated with an organization and interested in setting up a table at the career fair, reach out!
+If you're affiliated with an organization and interested in setting up a table at the career fair, [reach out](mailto:events@tigercs.org)!
