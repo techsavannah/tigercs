@@ -18,7 +18,6 @@ We're still working on the schedule and will finalize it as we get closer to the
 * 11:00 - 11:50 - Systems Thinking
 * 12:00 - 12:45 - Lunch and AI-Focused Featured Speaker
 * 1:00 - 2:15 - Local Employers Panel
-* 2:15 - 3:15 - Dedicated time to check out the career fair
 * 3:15 - 4 - AI + Cybersecurity Panel
 * 4:15 - 5 - Closing + Student Q&A
 * 5:30 - Closing Reception

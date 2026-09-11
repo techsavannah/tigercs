@@ -22,4 +22,4 @@ jobs:
       - run: yarn build
 
       - name: Check for broken internal links
-        run: npx linkinator ./_site --recurse
+        run: npx linkinator ./_site --recurse --retry --retry-errors --skip "linkedin\.com"
