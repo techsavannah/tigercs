@@ -11,7 +11,7 @@ Block off your calendars!! The IAB (Industry Advisory Board, that's us) is putti
 
 ### Thursday, October 8, 2026!!
 
-We're still working on the schedule and will finalize it as we get closer to the event, so check back!
+We're still working on finalizing the schedule and will publish it as we get closer to the event, so check back!
 
 * 9:00 - 9:50 - Opening & SSU Alumni Journey
 * 10:00 - 10:50 - Breaking Into Industry
@@ -22,10 +22,6 @@ We're still working on the schedule and will finalize it as we get closer to the
 * 4:15 - 5 - Closing + Student Q&A
 * 5:30 - Closing Reception
 
-### Industry Takeover
+### Questions?
 
-We're working with local and regional employers on a career fair that will run in parallel with the conference so if a session doesn't speak to you, check out the career fair!  It's always a good idea to see what's out there, especially in industries you haven't considered.  You never know what might be a good fit for your skills and career goals.  Talk to everyone!  
-
-Right now, the plan is to start the career fair at 10AM and go until around 4.  
-
-If you're affiliated with an organization and interested in setting up a table at the career fair, [reach out](mailto:events@tigercs.org)!
+Got questions? [Reach out](mailto:events@tigercs.org)!
