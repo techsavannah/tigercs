@@ -14,13 +14,13 @@ Block off your calendars!! The IAB (Industry Advisory Board, that's us) is putti
 We're still working on finalizing the schedule and will publish it as we get closer to the event, so check back!
 
 * 9:00 - 9:50 - Opening & SSU Alumni Journey
-* 10:00 - 10:50 - Breaking Into Industry
-* 11:00 - 11:50 - Systems Thinking
-* 12:00 - 12:45 - Lunch and AI-Focused Featured Speaker
-* 1:00 - 2:15 - Local Employers Panel
-* 3:15 - 4 - AI + Cybersecurity Panel
-* 4:15 - 5 - Closing + Student Q&A
-* 5:30 - Closing Reception
+* 10:00 - 10:50 - Local Employers Panel
+* 11:00 - 11:50 - AI + Cybersecurity Panel
+* 12:00 - 12:45 - Lunch and Q&A with the IAB
+* 1:00 - 2:30 - Rose Robinson Workshop: CS Fundamentals with AI
+* 2:45 - 4:15 - Kevin Lawver Workshop: The State of AI Coding
+* 4:30 - 5 - Closing
+* 5:30 - Closing Reception?
 
 ### Questions?
 
